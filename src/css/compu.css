@@ -1,0 +1,38 @@
+header {
+    width: 100%;
+    height: 223px;
+}
+
+.header__title-container {
+    height: 150px;
+}
+
+.header__subtitle-container {
+    height: 73px;
+    padding-top: 10px;
+}
+
+.header__title-container h1 {
+    font-size: 8rem;
+}
+
+.header__subtitle-container p {
+    font-size: 3rem;
+}
+
+.conversor__home--button {
+    left: calc(50% - 118);
+    margin: 29px auto;
+    padding: 15px;
+    width: 40%;
+    height: 90px;
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    background: var(--mustard);
+    border: none;
+    border-radius: 8px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    line-height: 70px;
+    text-decoration: none;
+    color: var(--texto);
+}
