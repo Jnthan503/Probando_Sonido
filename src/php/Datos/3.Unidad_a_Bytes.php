@@ -1,10 +1,11 @@
 <?php
+//ESTA CLASE SE USARÁ PARA CONVERTIR UNIDAD DE ORIGEN A BYTES
+
 include '4.Bytes_a_Unidades.php';
 class Unidad_a_Bytes extends Datos {
 
   public function Convertir_a_Bytes(){
     $this->Captura ();
-  //// PEDIR CANTIDAD Y CONVERTIR LA SELECCION "FROM" A BYTE
     switch ($this->from) {
       case 'Bytes':
         $this->converBytes = $this->cantidad * parent::BYTE;

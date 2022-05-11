@@ -1,4 +1,5 @@
 <?php 
+//ESTA CLASE SE USARÁ PARA INSTANCIAR
 
 class Instanciar extends Bytes_a_Unidades{
   public function Instancias() {

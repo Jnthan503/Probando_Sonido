@@ -1,4 +1,6 @@
 <?php
+//ESTA CLASE SE USARÁ PARA CONVERTIR UNIDAD DE BYTES A DESTINO
+
 include '5.Instanciar.php';
 class Bytes_a_Unidades extends Unidad_a_Bytes {
   

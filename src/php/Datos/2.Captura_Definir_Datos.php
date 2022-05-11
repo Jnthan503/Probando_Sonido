@@ -1,4 +1,6 @@
 <?php
+//ESTA CLASE SE USARÁ PARA LOS CAPTURAR LOS DATOS INGRESADOS
+
 include '3.Unidad_a_Bytes.php';
 class Datos {
   const BYTE = 1;
